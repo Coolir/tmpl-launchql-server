@@ -10,7 +10,7 @@ import {
 
 import { graphqlUploadExpress } from 'graphql-upload';
 import { middleware as parseDomains } from '@pyramation/url-domains';
-import { postgraphile } from 'postgraphile';
+import { postgraphile } from '@pyramation/postgraphile';
 import { getGraphileSettings } from '@launchql/graphile-settings';
 import env from './env';
 

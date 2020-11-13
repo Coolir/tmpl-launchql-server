@@ -1,6 +1,4 @@
-import {
-  Server
-} from '@launchql/server';
+import { Server } from '@launchql/server';
 
 import env from './env';
 
@@ -10,12 +8,8 @@ const app = new Server({
   port: env.SERVER_PORT,
   origin,
   appendPlugins: [],
-  graphileBuildOptions: {
-
-  },
-  overrideSettings: {
-
-  }
+  graphileBuildOptions: {},
+  overrideSettings: {}
 });
 
 export default app;
